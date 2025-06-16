@@ -1,0 +1,404 @@
+{
+	"info": {
+		"_postman_id": "a4618eaa-e8e6-43d9-9e07-f103bf85a3ab",
+		"name": "Lookup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33522053"
+	},
+	"item": [
+		{
+			"name": "Top -locations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing.wuzzuf.basharsys.com/api/location/top",
+					"protocol": "https",
+					"host": [
+						"testing",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"top"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "schools?filter[isVerified]=1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/lookups/schools?filter[isVerified]=1",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"lookups",
+						"schools"
+					],
+					"query": [
+						{
+							"key": "filter[isVerified]",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "workplaceArrangement",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=workplaceArrangement",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "workplaceArrangement"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "country",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=lookupSearchFilter",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "lookupSearchFilter"
+						}
+					]
+				},
+				"description": "Country"
+			},
+			"response": []
+		},
+		{
+			"name": "lookupSearchSource",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=lookupSearchSource",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "lookupSearchSource"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "companySize",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=companySize",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "companySize"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lookupProjectCategory",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=lookupProjectCategory",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "lookupProjectCategory"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "skills?filter[isVerified]=1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/lookups/skills?filter[isVerified]=1",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"lookups",
+						"skills"
+					],
+					"query": [
+						{
+							"key": "filter[isVerified]",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "educationalDegree",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=educationalDegree",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "educationalDegree"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "City",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/country/56/city?",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"country",
+						"56",
+						"city"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Area",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ar",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/country/56/city/1563/area?sort=name",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"country",
+						"56",
+						"city",
+						"1563",
+						"area"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "workRole",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testing-ar.wuzzuf.basharsys.com/api/look-ups?include=workRole",
+					"protocol": "https",
+					"host": [
+						"testing-ar",
+						"wuzzuf",
+						"basharsys",
+						"com"
+					],
+					"path": [
+						"api",
+						"look-ups"
+					],
+					"query": [
+						{
+							"key": "include",
+							"value": "workRole"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
